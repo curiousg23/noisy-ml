@@ -1,7 +1,7 @@
 """Functions to simulate various error types.
 """
 import numpy as np
-from scipy import stats
+from scipy import stats, special
 
 
 def generate_gaussian_noise(N, Y, target_R2 = 0.005):
